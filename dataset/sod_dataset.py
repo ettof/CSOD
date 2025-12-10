@@ -23,7 +23,6 @@ class NormalDataset(Dataset):
                     class_name, class_label, file_name = line.strip().split()
                     self.labels[file_name] = int(class_label)
 
-        # 处理多GPU推理的数据划分
         if mode != 'train':
             start_idx = int(local_rank * len(self.imgs_list) / max_rank)
             end_idx = int(local_rank * len(self.imgs_list) / max_rank + len(self.imgs_list) / max_rank)
