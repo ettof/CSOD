@@ -4,6 +4,7 @@ import torch.nn.functional as F
 import numpy as np
 from torchvision.ops import sigmoid_focal_loss
 
+
 def LossFunc(pred, mask):
     mask=mask.float()
     bce = F.binary_cross_entropy(pred, mask, reduce=None)
