@@ -5,7 +5,6 @@ from scipy.ndimage import distance_transform_edt as bwdist
 
 from .utils import EPS, TYPE, get_adaptive_threshold, prepare_data
 
-
 class Fmeasure(object):
     def __init__(self, beta: float = 0.3):
         """
