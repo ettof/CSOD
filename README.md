@@ -1,7 +1,7 @@
 # [TPAMI 2026] Breaking Barriers, Localizing Saliency: A Large-scale Benchmark and Baseline for Condition-Constrained Salient Object Detection
 [Runmin Cong](https://scholar.google.cz/citations?user=-VrKJ0EAAAAJ&hl),
 [Zhiyang Chen](https://scholar.google.com.hk/citations?hl=zh-CN&user=02BOfjcAAAAJ), 
-[Hao Fang](https://scholar.google.cz/citations?user=PA0RVvgAAAAJ),
+[Hao Fang*](https://fanghaook.github.io/),
 [Sam Kwong](https://scholar.google.com.hk/citations?hl=zh-CN&user=_PVI6EAAAAAJ) and
 [Wei Zhang](https://scholar.google.com.hk/citations?hl=zh-CN&user=qCWuPHsAAAAJ)
 
@@ -131,3 +131,4 @@ Pre-trained weights for CSSAM variants are available for download:
 
 
 This repository is implemented based on the [Segment Anything Model](https://github.com/facebookresearch/sam2). Thanks to them for their excellent work.
+
