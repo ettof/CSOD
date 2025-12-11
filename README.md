@@ -87,7 +87,7 @@ Download the pretrained model of the scale you need:
 - [sam2.1_hiera_base_plus.pt](https://dl.fbaipublicfiles.com/segment_anything_2/092824/sam2.1_hiera_base_plus.pt)
 - [sam2.1_hiera_large.pt](https://dl.fbaipublicfiles.com/segment_anything_2/092824/sam2.1_hiera_large.pt)
 
-Save them in ./checkpoint
+Save them in ./checkpoints
 
 ## 🚀Train & Evaluate
 
@@ -128,5 +128,6 @@ Pre-trained weights for CSSAM variants are available for download:
 | CSSAM-L | 230.08     | 0.028 | 0.907         | 0.902   | 0.931   | [Google Drive](https://drive.google.com/file/d/1lJbrFLnhOrMDtWVBnC2HFKFQc1hcgIDh/view?usp=drive_link) |
 
 ## ☑️ Acknowledgement
+
 
 This repository is implemented based on the [Segment Anything Model](https://github.com/facebookresearch/sam2). Thanks to them for their excellent work.
