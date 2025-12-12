@@ -127,7 +127,7 @@ Pre-trained weights for CSSAM variants are available for download:
 | CSSAM-B | 85.26      | 0.035 | 0.887         | 0.886   | 0.916   | [Google Drive](https://drive.google.com/file/d/1Q469wmIigyHxxHdZ0REi68v2PKQ3Yv6b/view?usp=drive_link) |
 | CSSAM-L | 230.08     | 0.028 | 0.907         | 0.902   | 0.931   | [Google Drive](https://drive.google.com/file/d/1lJbrFLnhOrMDtWVBnC2HFKFQc1hcgIDh/view?usp=drive_link) |
 
-## ⭐ BibTeX
+## <a name="CitingCSOD"></a>⭐ BibTeX
 
 ---
 If you use CSOD in your research, please cite our paper:  
@@ -148,5 +148,6 @@ If you use CSOD in your research, please cite our paper:
 
 
 This repository is implemented based on the [Segment Anything Model](https://github.com/facebookresearch/sam2). Thanks to them for their excellent work.
+
 
 
