@@ -5,7 +5,7 @@
 [Sam Kwong](https://scholar.google.com.hk/citations?hl=zh-CN&user=_PVI6EAAAAAJ) and
 [Wei Zhang](https://scholar.google.com.hk/citations?hl=zh-CN&user=qCWuPHsAAAAJ)
 
-[[`paper`]()] [[`BibTeX`]()]
+[[`paper`](https://ieeexplore.ieee.org/document/11297835)] [[`BibTeX`](#CitingCSOD)]
 
 ## 🚩 Highlights:
 
@@ -127,8 +127,26 @@ Pre-trained weights for CSSAM variants are available for download:
 | CSSAM-B | 85.26      | 0.035 | 0.887         | 0.886   | 0.916   | [Google Drive](https://drive.google.com/file/d/1Q469wmIigyHxxHdZ0REi68v2PKQ3Yv6b/view?usp=drive_link) |
 | CSSAM-L | 230.08     | 0.028 | 0.907         | 0.902   | 0.931   | [Google Drive](https://drive.google.com/file/d/1lJbrFLnhOrMDtWVBnC2HFKFQc1hcgIDh/view?usp=drive_link) |
 
+## ⭐ BibTeX
+
+---
+If you use CSOD in your research, please cite our paper:  
+```BibTeX
+@ARTICLE{11297835,
+  author={Cong, Runmin and Chen, Zhiyang and Fang, Hao and Kwong, Sam and Zhang, Wei},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+  title={Breaking Barriers, Localizing Saliency: A Large-scale Benchmark and Baseline for Condition-Constrained Salient Object Detection}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-18},
+  keywords={Salient Object Detection;Constrained Conditions;Benchmark Dataset;Scene Prior;Hybrid Prompt},
+  doi={10.1109/TPAMI.2025.3642893}}
+```
+
 ## ☑️ Acknowledgement
 
 
 This repository is implemented based on the [Segment Anything Model](https://github.com/facebookresearch/sam2). Thanks to them for their excellent work.
+
 
